@@ -1,0 +1,14 @@
+dependencies{
+
+    implementation "org.springframework.boot:spring-boot-starter-security:3.3.0"
+    implementation 'org.springframework.boot:spring-boot-starter-actuator:3.3.3'
+
+    implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    implementation 'io.springfox:springfox-spring-webflux:3.0.0'
+
+
+    implementation(project(":database-boundary"))
+    implementation(project(":commons"))
+    implementation(project(":exceptions"))
+}

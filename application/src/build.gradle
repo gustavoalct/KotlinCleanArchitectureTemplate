@@ -1,0 +1,17 @@
+apply plugin: 'application'
+
+mainClassName = "template.clean.architecture"
+
+dependencies{
+    implementation(project(":adapters"))
+    implementation(project(":web"))
+    implementation(project(":database-adapter"))
+    implementation(project(":input-adapter"))
+
+    implementation(project(":core"))
+    implementation(project(":usecases"))
+    implementation(project(":entities"))
+
+    implementation(project(":boundary-context"))
+    implementation(project(":database-boundary"))
+}
