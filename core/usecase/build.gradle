@@ -1,0 +1,6 @@
+dependencies{
+    implementation(project(":input-boundary-context"))
+    implementation(project(":database-boundary"))
+    implementation(project(":commons"))
+    implementation(project(":exceptions"))
+}

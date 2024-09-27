@@ -1,0 +1,7 @@
+dependencies{
+
+    implementation 'org.postgresql:postgresql:42.7.3'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa:3.3.3'
+    implementation 'com.vladmihalcea:hibernate-types-52:2.20.0'
+
+}
